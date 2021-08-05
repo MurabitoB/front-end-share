@@ -1,0 +1,11 @@
+// 這是一個用 for loop 模擬 bootstrap col 的寫法，該寫法不代表正式的 bootstrap
+// 如果想感受一下，可以看看這篇文章 https://awdr74100.github.io/2020-06-24-scss-gridsystem-spacing/
+
+$bootstrap-grid-min: 1;
+$bootstrap-grid-max: 12;
+
+@for $i from $bootstrap-grid-min through $bootstrap-grid-max {
+  .col-#{$i} {
+    max-width: (100% / 12) * $i;
+  }
+}

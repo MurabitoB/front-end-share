@@ -1,0 +1,14 @@
+.container-exlg {
+  max-width: 1200 px;
+}
+.container-lg {
+  max-width: 992 px;
+}
+.container-md {
+  max-width: 768 px;
+}
+.container-sm {
+  max-width: 576 px;
+}
+
+/*# sourceMappingURL=parameter.css.map */

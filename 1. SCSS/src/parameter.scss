@@ -1,0 +1,27 @@
+// 這是變數的 Demo
+$red_01: rgb(157, 0, 0);
+$red_02: rgb(198, 0, 0);
+
+// rwd size
+$exlg-width: 1200;
+$lg-width: 992;
+$md-width: 768;
+$sm-width: 576;
+
+.container {
+  &-exlg {
+    max-width: $exlg-width px;
+  }
+
+  &-lg {
+    max-width: $lg-width px;
+  }
+
+  &-md {
+    max-width: $md-width px;
+  }
+
+  &-sm {
+    max-width: $sm-width px;
+  }
+}
