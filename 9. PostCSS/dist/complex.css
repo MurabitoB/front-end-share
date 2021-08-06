@@ -1,11 +1,8 @@
 .example {
   display: grid;
   transition: all 0.5s;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   background: linear-gradient(to bottom, white, black);
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9jb21wbGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIseUJBQWlCO0tBQWpCLHNCQUFpQjtNQUFqQixxQkFBaUI7VUFBakIsaUJBQWlCO0VBQ2pCLG9EQUFvRDtBQUN0RCIsImZpbGUiOiJjb21wbGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlIHtcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjVzO1xyXG4gIHVzZXItc2VsZWN0OiBub25lO1xyXG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byBib3R0b20sIHdoaXRlLCBibGFjayk7XHJcbn1cclxuIl19 */
+/*# sourceMappingURL=complex.css.map */
