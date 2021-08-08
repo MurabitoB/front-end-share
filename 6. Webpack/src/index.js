@@ -1,8 +1,8 @@
 import $ from 'jquery';
-import css from './style.css'
+import css from './style.scss'
 import { Utils } from './utils';
 
-console.log(Utils.first('a'));
+console.log(new Utils().first('a'));
 
 $('.btn').on('click', () => {
     alert('click');
